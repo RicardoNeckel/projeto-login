@@ -42,7 +42,7 @@ section#login{
     transition-timing-function: ease;
 }
 
-section#login > div#imagens {
+section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/fundo-madeira.jpg) no-repeat;
     background-size: cover;
@@ -53,4 +53,13 @@ section#login > div#imagens {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
